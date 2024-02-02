@@ -1,12 +1,15 @@
 import React from 'react'
-import { FaCircleCheck } from "react-icons/fa6";
+import { FaCheckCircle } from "react-icons/fa";
+
 //style
 import CSS from './amountButton.module.css'
 
 export default function AmountButton({amount, active, onClick}) {
   return (
-    <button onCLick= {onClick}> 
-      £ {amount} {active && <FaCircleCheck className={CSS.checkIcon}/>}
+    <button 
+      className={active ? CSS.activeButton : null} onClick={onClick}
+      onCLick= {onClick}> 
+      £ {amount} {active && <FaCheckCircle />}
     </button>
   )
 }
