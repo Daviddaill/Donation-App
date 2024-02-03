@@ -1,58 +1,57 @@
-
-.main_container{
-   margin:0;
+.body {
+   padding: 20px;
 }
 
-.body{
-   padding:20px;
-   margin:0;
-}
-
-.button_container{
-   display:flex;
+.button_container {
+   display: flex;
    justify-content: center;
-   gap:5px;
-   margin:10px 0px;
-
+   gap: 5px;
+   margin: 10px 0px;
 }
-.donate_button{
+
+.donate_button {
    background-color: #F69220;
-   border:none;
-   padding:10px 20px;
-   font-weight:bold;
-
+   border: none;
+   padding: 10px 20px;
+   font-weight: bold;
 }
-.lock_icon{
-   width:15px;
+
+.lock_icon {
+   width: 15px;
    padding-left: 5px;
 }
-.banner{
+
+.banner {
    background-color: #FBCE9A;
-   padding:20px;
-   margin:10px 0px;
+   padding: 20px;
+   margin: 10px 0px;
    font-size: 14px;
 }
-.tab_footer{
-   margin:0;
+
+.tab_footer {
+   margin: 0;
 }
 
-@media screen and (max-width: 720px){
-   p{
+@media screen and (max-width: 720px) {
+   p {
       text-align: center;
    }
-   .button_container{
-flex-wrap: wrap;
-justify-content: center;
+
+   .button_container {
+      flex-wrap: wrap;
+      justify-content: center;
    }
 }
-@media screen and  (max-width:480px ){
 
-   .button_container{
+@media screen and (max-width:480px) {
+
+   .button_container {
       justify-content: space-between;
-      padding:10px 0;
+      padding: 10px 0;
    }
-   .donate_button{
-      width:100%;
-      
+
+   .donate_button {
+      width: 100%;
+
    }
 }

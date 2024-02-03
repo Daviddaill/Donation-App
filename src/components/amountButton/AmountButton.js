@@ -1,6 +1,6 @@
 import React from 'react'
+//icons
 import { FaCheckCircle } from "react-icons/fa";
-
 //style
 import CSS from './amountButton.module.css'
 
