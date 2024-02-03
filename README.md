@@ -2,7 +2,7 @@
 
 A Donation Component with 2 tabs.
 The user can choose between a monthly or one-off donation and select a donation amount
-To explore the **Donation App**, click [here](https://wondrous-heliotrope-621eb8.netlify.app/){:target="_blank"}
+To explore the **Donation App**, click <a href:'https://wondrous-heliotrope-621eb8.netlify.app/' target="_blank">here</a>
 
 ## Table of Contents
 
