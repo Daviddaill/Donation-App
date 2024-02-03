@@ -7,7 +7,7 @@ import CSS from './amountButton.module.css'
 export default function AmountButton({amount, active, onClick}) {
   return (
     <button 
-      className={active ? CSS.activeButton : null} onClick={onClick}
+      className={`${CSS.button} ${active ? CSS.activeButton : null}`} onClick={onClick}
       onCLick= {onClick}> 
       £ {amount} {active && <FaCheckCircle />}
     </button>

@@ -1,3 +1,12 @@
+.button{
+   background-color:#EAEDF4;
+   border: 1px solid grey;
+   padding:10px 20px;
+   font-weight: bold;
+}
+.button:hover{
+   cursor: pointer;
+}
 .activeButton {
    background-color: #319CA1;
    color: white

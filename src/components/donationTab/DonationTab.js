@@ -10,7 +10,7 @@ import CSS from './donationTab.module.css'
 import MonthlyTabFooter from '../tabFooter/MonthlyTabFooter';
 import OneOffTabFooter from '../tabFooter/OneOffTabFooter';
 
-export default function DonationTab({ type }) {
+export default function DonationTab({ type, onTabChange }) {
    const [activeButton, setActiveButton] = useState(1);
    const [customAmount, setCustomAmount] = useState('');
 
@@ -29,9 +29,11 @@ export default function DonationTab({ type }) {
    const amounts = type === 'monthly' ? [6, 12, 18, 30] : [10, 40, 75, 100];
    const donationAmount= customAmount || (activeButton !== null ? amounts[activeButton] : 0)
    return (
-      <div>
+      <div className={CSS.main_container}>
+         <div className={CSS.body}>
          <p>I would like to make a {type} donation of</p>
-         <div>
+
+         <div className={CSS.button_container}>
             {amounts.map((amount, index) => (
                <AmountButton
                   key={index}
@@ -54,10 +56,12 @@ export default function DonationTab({ type }) {
               £ {donationAmount}  {type==='monthly'? 'Could help our Animal Rescue Team take on an urgent animal rescue': 'Could help answer an emmergency call to our Animal Rescue'}
             </p>
          </div>
+         </div>
+
          <div className={CSS.tab_footer}>
               <p>
               {
-               type==='monthly'? <MonthlyTabFooter />: <OneOffTabFooter />
+               type==='monthly'? <MonthlyTabFooter onClick={() => onTabChange('Tab 2')}/>: <OneOffTabFooter onClick={() => onTabChange('Tab 1')}/>
               } 
                </p> 
 

@@ -1,3 +1,24 @@
+.main_container{
+   background-color: #EAEDF4;
+   font-size:11px;
+   margin:0;
+   padding:20px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.tab_link{
+   text-decoration: underline;
+}
+.tab_link:hover{
+   cursor:pointer;
+   color:grey;
+}
+.middle_text{
+   font-size: 9px;
+}
+
 .images{
-   
+   display:flex;
+   gap:10px;
 }

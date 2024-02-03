@@ -17,12 +17,21 @@ const App = () => {
       <h1 className='main_title'>Technical Test - David Daillère</h1>
       <div className='donation_container'>
         <div className='tab_bar'>
-          <button onClick={() => handleTabChange('Tab 1')}>Donate Monthly</button>
-          <button onClick={() => handleTabChange('Tab 2')}>Donate Once</button>
+          <button
+            className={`tab_button ${activeTab === 'Tab 1' ? 'active_tab' : ''}`}
+            onClick={() => handleTabChange('Tab 1')}
+          >
+            Donate Monthly
+          </button>
+          <button
+            className={`tab_button ${activeTab === 'Tab 2' ? 'active_tab' : ''}`}
+            onClick={() => handleTabChange('Tab 2')}>
+            Donate Once
+          </button>
         </div>
         <div className='tab_content'>
-          {activeTab === 'Tab 1' && <DonationTab type="monthly" />}
-          {activeTab === 'Tab 2' && <DonationTab type="one-off" />}
+          {activeTab === 'Tab 1' && <DonationTab type="monthly" onTabChange={handleTabChange} />}
+          {activeTab === 'Tab 2' && <DonationTab type="one-off" onTabChange={handleTabChange}/>}
         </div>
       </div>
 
