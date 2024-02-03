@@ -1,8 +1,8 @@
 # Donation App
 
-A Donation Component with 2 tabs.
-The user can choose between a monthly or one-off donation and select a donation amount
-Check the app on Netlify: [Donation App](https://wondrous-heliotrope-621eb8.netlify.app/) (opens in a new tab)
+- A Donation Component with 2 tabs.
+- The user can choose between a monthly or one-off donation and select a donation amount.
+- The App is live on Netlify: [Donation App](https://wondrous-heliotrope-621eb8.netlify.app/)
 
 ## Table of Contents
 
