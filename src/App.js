@@ -13,8 +13,8 @@ const App = () => {
   };
 
   return (
-    <div>
-      <h1 className='main_title'>Technical Test - David Daillère</h1>
+    <div className='app'>
+      <h1 className='main_title'>Technical Test - <a href='https://daviddaillere.com' target="_blank" className='portfolio_link'>David Daillère</a></h1>
       <div className='donation_container'>
         <div className='tab_bar'>
           <button

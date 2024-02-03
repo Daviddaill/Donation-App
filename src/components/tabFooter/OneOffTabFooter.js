@@ -12,10 +12,10 @@ export default function OneOffTabFooter({onClick}) {
     <div className={CSS.main_container}>
       <p onClick={onClick} className={CSS.tab_link} >I would like to give monthly</p>
       <div className={CSS.images}>
-         <img src={visa} alt='we accept Visa'  width='30px'/>
-         <img src={masterCard} alt='we accept Master Card'  width='30px'/>
-         <img src={paypal} alt='we accept Paypal'  width='30px'/>
-         <img src={fundRaising} alt='we apply fundraising regulation'  width='60px'/>
+         <img src={visa} alt='we accept Visa'  className={CSS.image}/>
+         <img src={masterCard} alt='we accept Master Card'  className={CSS.image}/>
+         <img src={paypal} alt='we accept Paypal'  className={CSS.image}/>
+         <img src={fundRaising} alt='we apply fundraising regulation'  className={CSS.image}/>
       </div>
     </div>
   )

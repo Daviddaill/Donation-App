@@ -11,8 +11,8 @@ export default function MonthlyTabFooter({onClick}) {
       <p onClick={onClick} className={CSS.tab_link}>I would like to make a one-off donation</p>
       <p className={CSS.middle_text}>All direct debit are protected by the Direct Debit Guarantee</p>
       <div className={CSS.images}>
-         <img src={directDebit} alt='we accept direct debit' width='60px'/>
-         <img src={fundRaising} alt='we apply fundraising regulation'  width='60px'/>
+         <img className={CSS.image} src={directDebit} alt='we accept direct debit' />
+         <img className={CSS.image} src={fundRaising} alt='we apply fundraising regulation'  />
       </div>
     </div>
   )

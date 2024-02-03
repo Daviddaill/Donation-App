@@ -5,7 +5,9 @@
    padding:20px;
    display:flex;
    justify-content: space-between;
+   gap:20px;
    align-items: center;
+   width:100%
 }
 .tab_link{
    text-decoration: underline;
@@ -17,8 +19,29 @@
 .middle_text{
    font-size: 9px;
 }
+.images{
+   display:flex;
+   justify-content: center;
+}
+.image{
+
+}
 
 .images{
    display:flex;
    gap:10px;
+}
+
+@media screen and  (max-width:480px ){
+   .main_container{
+      flex-direction: column-reverse;
+
+      gap: 20px;
+      padding:20px 0
+   }
+   .images{
+      width:100%;
+      gap:20px;
+      flex-wrap: wrap;
+   }
 }

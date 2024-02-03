@@ -31,7 +31,7 @@ export default function DonationTab({ type, onTabChange }) {
    return (
       <div className={CSS.main_container}>
          <div className={CSS.body}>
-         <p>I would like to make a {type} donation of</p>
+         <p >I would like to make a {type} donation of</p>
 
          <div className={CSS.button_container}>
             {amounts.map((amount, index) => (
@@ -40,9 +40,11 @@ export default function DonationTab({ type, onTabChange }) {
                   amount={amount}
                   onClick={() => handleButtonClick(index, amount)}
                   active={index === activeButton}
+                  
                />
             ))}
-            <OtherAmount onSelect={handleOtherAmountSelect} />
+            <OtherAmount 
+               onSelect={handleOtherAmountSelect} />
             <button className={CSS.donate_button}>
                Donate £
                {/* Display the custom amount or the selected amount from AmountButton */}
