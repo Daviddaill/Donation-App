@@ -10,9 +10,9 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [App Strucutre](#AppStructure)
-- [Improvement](#Improvement)
-- [Thank You](#ThankYou)
+- [App Strucutre](#app-structure)
+- [Improvement](#improvement)
+- [Thank You](#thank-you)
 
 ## Features
 
