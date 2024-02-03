@@ -1,7 +1,8 @@
 # Donation App
 
-A Donation Component with 2 tabs.
-The user can choose between a monthly or one-off donation and select a donation amount
+- A Donation Component with 2 tabs.
+- The user can choose between a monthly or one-off donation and select a donation amount.
+- The App is live on Netlify: [Donation App](https://wondrous-heliotrope-621eb8.netlify.app/)
 
 ## Table of Contents
 
@@ -33,13 +34,13 @@ Follow these steps to get the app up and running on your local machine:
 1. **Clone the Repository:**
 In your terminal:
 
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
-   npm install
+   - git clone https://github.com/your-username/your-repository.git
+   - cd your-repository  
+   - npm install 
 
 ## Usage
-In your terminal:
-   npm start
+In your terminal type:  
+   - npm start
 
 ## Improvement
 - Possibility to wrap all DonationTabs component in one folder for better clarity.
