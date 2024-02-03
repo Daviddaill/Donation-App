@@ -10,8 +10,9 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [App Strucutre](#AppStructure)
+- [Improvement](#Improvement)
+- [Thank You](#ThankYou)
 
 ## Features
 
