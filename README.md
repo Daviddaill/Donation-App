@@ -42,6 +42,10 @@ In your terminal:
 In your terminal type:  
    - npm start
 
+## App Structure
+- In App.js, the DonationTab component serves as the parent component.
+- Within the DonationTab, each element is organized into reusable components, enhancing productivity and facilitating the addition of other types of donations in the future.
+
 ## Improvement
 - Possibility to wrap all DonationTabs component in one folder for better clarity.
 - Each component inside DonationTabs have their own CSS file, but it may be easier to write and read code if all css link to DonationTabs where in one file only
