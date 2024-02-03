@@ -34,13 +34,13 @@ Follow these steps to get the app up and running on your local machine:
 1. **Clone the Repository:**
 In your terminal:
 
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
-   npm install
+   - git clone https://github.com/your-username/your-repository.git
+   - cd your-repository  
+   - npm install 
 
 ## Usage
-In your terminal:
-   npm start
+In your terminal type:  
+   - npm start
 
 ## Improvement
 - Possibility to wrap all DonationTabs component in one folder for better clarity.
