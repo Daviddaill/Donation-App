@@ -21,6 +21,7 @@ const App = () => {
       <a
           href='https://daviddaillere.com'
           target="_blank"
+          rel="noreferrer"
           className='portfolio_link'>
           David Daillère</a>
       </header>
